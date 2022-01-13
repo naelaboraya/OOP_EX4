@@ -25,4 +25,8 @@ photo provided for our pokemon game (in case 5) : </br>
    - pokemon_location : This function returns if the pokemon exist on the edge </br>
  - Pokemon : This class used to represent the pokemons on the graph wich will be hunted during the game : </br>
    - hunted : This function returns if the pokemon is beeing hunted </br>
- - StuddentCode : This is 
+ - StuddentCode : This is the main class that runs our code , this class communicate between the server and the client and runs our GUI </br>
+   - game_begin : This function initializes the game and converts the strings to objects</br>
+   - agent_route_initialize : This function initializes the route for agents </br>
+   - upcoming_node : This function helps the agents to go to the next node </br>
+   - agent_move : This function is used to direct the agent to the next node </br>
