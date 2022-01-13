@@ -19,5 +19,8 @@ photo provided for our pockemon game: </br>
    - change_vals : this function reads from json and converts to values to the object.</br>
    - set_next : this function sets the next node destination .</br>
    - get_pos : this function returns the position of the agent .</br>
- - Arena : 
- 
+ - Arena : This class includes the graph and represents the agents and the pokemons as objects (converted from JSON) : </br>
+   - pok_from_json : This functions convert pokemons from json </br>
+   - agents_from_json : This function converts agents from json </br>
+   - pokemon_location : This function returns if the pokemon exist on the edge </br>
+ - Pokemon :
