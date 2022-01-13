@@ -23,4 +23,5 @@ photo provided for our pockemon game: </br>
    - pok_from_json : This functions convert pokemons from json </br>
    - agents_from_json : This function converts agents from json </br>
    - pokemon_location : This function returns if the pokemon exist on the edge </br>
- - Pokemon :
+ - Pokemon :This class used to represent the pokemons on the graph wich will be hunted during the game : </br>
+   - hunted : This function returns if the pokemon is beeing hunted </br>
