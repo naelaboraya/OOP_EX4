@@ -13,3 +13,7 @@ photo provided for our pockemon game: </br>
 
 # Graph implementation 
 ## we have used our previous project in java (DirectedWeightedGraph) and the algorihms that we have implemented to do this project .</br> 
+</br>
+##In this project we have implemented several classes : 
+ -Agent : This class is used to represent the agents on the graph 
+   -change_vals : this function reads from json and converts to values to the object.
