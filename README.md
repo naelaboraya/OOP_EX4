@@ -17,3 +17,7 @@ photo provided for our pockemon game: </br>
 ## In this project we have implemented several classes : </br>
  - Agent : This class is used to represent the agents on the graph </br>
    - change_vals : this function reads from json and converts to values to the object.</br>
+   - set_next : this function sets the next node destination .</br>
+   - get_pos : this function returns the position of the agent .</br>
+ - Arena : 
+ 
