@@ -11,5 +11,5 @@ photo provided for our pockemon game: </br>
 
 </br>
 
-## Graph implementation 
-# we have used our previous project in java (DirectedWeightedGraph) and the algorihms that we have implemented to do this project .</br> 
+# Graph implementation 
+## we have used our previous project in java (DirectedWeightedGraph) and the algorihms that we have implemented to do this project .</br> 
