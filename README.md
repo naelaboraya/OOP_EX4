@@ -5,7 +5,7 @@ In this project we have implemented pokemon game wich was applied using directed
 
 The game contains agents and pokemons , each agent starts on a specific position on the graph , the main purpose of the agents is to catch the pokemons with less moves as possible ,wich means more efficiency .
 
-photo provided for our pockemon game: </br>
+photo provided for our pokemon game (in case 5) : </br>
 
 ![Screenshot from 2022-01-13 23-11-52](https://user-images.githubusercontent.com/94143804/149411011-1a6d202f-50c8-447c-bb81-cdaeb890104a.png)
 
@@ -23,5 +23,6 @@ photo provided for our pockemon game: </br>
    - pok_from_json : This functions convert pokemons from json </br>
    - agents_from_json : This function converts agents from json </br>
    - pokemon_location : This function returns if the pokemon exist on the edge </br>
- - Pokemon :This class used to represent the pokemons on the graph wich will be hunted during the game : </br>
+ - Pokemon : This class used to represent the pokemons on the graph wich will be hunted during the game : </br>
    - hunted : This function returns if the pokemon is beeing hunted </br>
+ - StuddentCode : This is 
