@@ -58,9 +58,9 @@ public class StudentCode implements Runnable {
 
     @Override
     public void run() {
-            String str_g = cli.getGraph();
-            System.out.println(cli.timeToEnd());
-            DirectedWeightedGraph g = create_graph(str_g);
+        String str_g = cli.getGraph();
+        System.out.println(cli.timeToEnd());
+        DirectedWeightedGraph g = create_graph(str_g);
 
         cli.start();
 
@@ -228,10 +228,10 @@ public class StudentCode implements Runnable {
 
             if (bool) {
                 dest = upcoming_node(g, this_node, A);
-                 String next_edge =  A.get_key() + "" + dest ;
+                String next_edge = "{\"agent_id\":" + A.get_key() + ", \"next_node_id\":" + dest + "}";
                 game.chooseNextEdge(next_edge);
 
-                 System.out.println("FROM: " + key + ", value: " + val + "   TO: " + dest + " Edge:" + this_node + "," + dest);
+                System.out.println("Agent: " + key + ", value: " + val + "   to : " + dest + " Edge:" + this_node + "," + dest);
 
                 score();
             }
@@ -282,9 +282,9 @@ public class StudentCode implements Runnable {
 
 
 
-             a = Double.parseDouble(pos[0]);
-             b = Double.parseDouble(pos[1]);
-             c = Double.parseDouble(pos[2]);
+            a = Double.parseDouble(pos[0]);
+            b = Double.parseDouble(pos[1]);
+            c = Double.parseDouble(pos[2]);
             g.addNode(new Nodeimple(key ,new geo_loc(a,b,c) ));
         }
 
