@@ -24,4 +24,5 @@ photo provided for our pokemon game : </br>
    - Open another terminal / cmd window (in the project file) and run the jar file : </br>
      - java -jar OOP_EX4.jar  
 
-## For more info about this project , please check our wiki ! :) 
+** There is also a release version , you can download it and run ir , have fun . :)
+## For more info about this project , please check our wiki ! 
