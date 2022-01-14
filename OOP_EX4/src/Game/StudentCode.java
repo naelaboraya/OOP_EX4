@@ -228,10 +228,10 @@ public class StudentCode implements Runnable {
 
             if (bool) {
                 dest = upcoming_node(g, this_node, A);
-                String next_edge = "{\"agent_id\":" + A.get_key() + ", \"next_node_id\":" + dest + "}";
+                 String next_edge =  A.get_key() + "" + dest ;
                 game.chooseNextEdge(next_edge);
 
-                System.out.println("Agent: " + key + ", val: " + val + "   turned to node: " + dest + " Edge:" + this_node + "," + dest);
+                 System.out.println("FROM: " + key + ", value: " + val + "   TO: " + dest + " Edge:" + this_node + "," + dest);
 
                 score();
             }
