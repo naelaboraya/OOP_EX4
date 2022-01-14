@@ -16,8 +16,8 @@ photo provided for our pokemon game (in case 5) : </br>
 
 
 # How to run the project </br>
- - git clone the reposetory 
- - Open the terminal/cmd
+ - git clone the reposetory / download the project to your computer </br>
+ - Open the terminal/cmd </br>
  - Open to the project folder : </br>
    - Run the server : </br>
      - java -jar Ex4_Server_v0.0.jar "#case [0-15]"</br>
