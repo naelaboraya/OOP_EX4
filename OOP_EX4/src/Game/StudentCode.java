@@ -35,7 +35,6 @@ public class StudentCode implements Runnable {
         }
 
         String str_g = cli.getGraph();
-        System.out.println(cli.timeToEnd());
         DirectedWeightedGraph g = create_graph(str_g);
         try {
             game_begin(cli);
@@ -59,17 +58,14 @@ public class StudentCode implements Runnable {
     @Override
     public void run() {
         String str_g = cli.getGraph();
-        System.out.println(cli.timeToEnd());
         DirectedWeightedGraph g = create_graph(str_g);
 
         cli.start();
 
-        System.out.println(cli.timeToEnd());
         while (cli.isRunning().equals("true")) {
             int v=Integer.parseInt(cli.timeToEnd());
 
             if (v< 100) {
-                System.out.println(cli.getInfo());
                 try {
                     cli.stopConnection();
                 } catch (IOException e) {
@@ -231,7 +227,7 @@ public class StudentCode implements Runnable {
                 String next_edge = "{\"agent_id\":" + A.get_key() + ", \"next_node_id\":" + dest + "}";
                 game.chooseNextEdge(next_edge);
 
-                System.out.println("Agent: " + key + ", value: " + val + "   to : " + dest + " Edge:" + this_node + "," + dest);
+                System.out.println("Agent: " + key + ", value = " + val + " to -> " + dest );
 
                 score();
             }
