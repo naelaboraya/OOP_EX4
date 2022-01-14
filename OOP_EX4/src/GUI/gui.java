@@ -18,7 +18,7 @@ import GraphPack.*;
 
 public class gui extends JFrame {
 
-	public static final double EPS =0.0001;
+	public static final double EPS =0.000005;
 	private int R = 2;
 	private Arena frame;
 	double[] x_range = new double[2];
