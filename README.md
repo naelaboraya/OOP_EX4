@@ -23,3 +23,5 @@ photo provided for our pokemon game (in case 5) : </br>
      - java -jar Ex4_Server_v0.0.jar "#case [0-15]"</br>
    - Open another terminal / cmd window (in the project file) and run the jar file : </br>
      - java -jar OOP_EX4.jar  
+
+## For more info about this project , please check our wiki ! :) 
