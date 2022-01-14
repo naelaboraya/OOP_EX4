@@ -15,4 +15,10 @@ photo provided for our pokemon game (in case 5) : </br>
 ## we have used our previous project in java (DirectedWeightedGraph) and the algorihms that we have implemented to do this project .</br> 
 
 
-
+# How to run the project </br>
+ - git clone the reposetory 
+ - Open the terminal/cmd
+ - Open to the project folder 
+  - Run the server : 
+   - java -jar Ex4_Server_v0.0.jar "#case [0-15]"
+  
