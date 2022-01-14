@@ -19,6 +19,6 @@ photo provided for our pokemon game (in case 5) : </br>
  - git clone the reposetory 
  - Open the terminal/cmd
  - Open to the project folder 
-  - Run the server : 
-   - java -jar Ex4_Server_v0.0.jar "#case [0-15]"
+   - Run the server : </br>
+   - java -jar Ex4_Server_v0.0.jar "#case [0-15]"</br>
   
