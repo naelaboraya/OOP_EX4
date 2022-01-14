@@ -14,26 +14,5 @@ photo provided for our pokemon game (in case 5) : </br>
 # Graph implementation 
 ## we have used our previous project in java (DirectedWeightedGraph) and the algorihms that we have implemented to do this project .</br> 
 
-## In this project we have implemented several classes : </br>
- - Agent : This class is used to represent the agents on the graph </br>
-   - change_vals : this function reads from json and converts to values to the object.</br>
-   - set_next : this function sets the next node destination .</br>
-   - get_pos : this function returns the position of the agent .</br>
- - Arena : This class includes the graph and represents the agents and the pokemons as objects (converted from JSON) : </br>
-   - pok_from_json : This functions convert pokemons from json </br>
-   - agents_from_json : This function converts agents from json </br>
-   - pokemon_location : This function returns if the pokemon exist on the edge </br>
- - Pokemon : This class used to represent the pokemons on the graph wich will be hunted during the game : </br>
-   - hunted : This function returns if the pokemon is beeing hunted </br>
- - StuddentCode : This is the main class that runs our code , this class communicate between the server and the client and runs our GUI </br>
-   - game_begin : This function initializes the game and converts the strings to objects</br>
-   - agent_route_initialize : This function initializes the route for agents </br>
-   - upcoming_node : This function helps the agents to go to the next node </br>
-   - agent_move : This function is used to direct the agent to the next node </br>
-
-## UML </br>
-
-![datdsasddasa](https://user-images.githubusercontent.com/94143804/149418829-1763e6a6-b5a6-4252-9d95-deb4f6b582cc.png)
-</br>
 
 
