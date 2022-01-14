@@ -20,5 +20,5 @@ photo provided for our pokemon game (in case 5) : </br>
  - Open the terminal/cmd
  - Open to the project folder 
    - Run the server : </br>
-   - java -jar Ex4_Server_v0.0.jar "#case [0-15]"</br>
+     - java -jar Ex4_Server_v0.0.jar "#case [0-15]"</br>
   
