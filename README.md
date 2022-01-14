@@ -25,4 +25,8 @@ photo provided for our pokemon game : </br>
      - java -jar OOP_EX4.jar  
 
 ** There is also a release version , you can download it and run ir , have fun . :)
+
+# screen recording from the game 
+
+https://user-images.githubusercontent.com/94143804/149577590-05ad41d9-6319-42a4-9c74-d208cf42309b.mp4 </br>
 ## For more info about this project , please check our wiki ! 
