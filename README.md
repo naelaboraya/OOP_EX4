@@ -28,5 +28,5 @@ photo provided for our pokemon game : </br>
 
 # screen recording from the game 
 
-https://user-images.githubusercontent.com/94143804/149577590-05ad41d9-6319-42a4-9c74-d208cf42309b.mp4 </br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wbrXiOPNju4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </br>
 ## For more info about this project , please check our wiki ! 
