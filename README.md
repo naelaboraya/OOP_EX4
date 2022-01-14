@@ -27,6 +27,6 @@ photo provided for our pokemon game : </br>
 ** There is also a release version , you can download it and run ir , have fun . :)
 
 # screen recording from the game 
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wbrXiOPNju4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p>
+https://www.youtube.com/watch?v=wbrXiOPNju4
+
 ## For more info about this project , please check our wiki ! 
